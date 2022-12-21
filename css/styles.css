@@ -1,19 +1,27 @@
 body{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
-
+main{
+    /* padding: 0 2rem;
+    padding-inline: 2rem;
+    padding-block: 0;
+    margin: 0 auto;
+    margin-inline: auto;
+    margin-block: 0; */
+}
 section{
-    width: 50%;
+    
 }
 
 .tdsbotao{
-    display: flex;
     width: 199px;
     height: 35.55px;
-    background-color: #3EB25E;
+    background: #3EB25E;
     border-radius: 35px;
-    color: #ffffff;
 }
 
 /* .imgall{
@@ -112,3 +120,16 @@ section{
     }
 
 } */
+@media screen and (min-width: 767px) {
+    body{
+        display: grid;
+        height: 100%;
+        width: 100%;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+};
+    
+
