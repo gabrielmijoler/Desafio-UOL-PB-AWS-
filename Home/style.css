@@ -1,47 +1,57 @@
-.imgindex{
-    /* inline-size: 13rem;
-    margin-left: 3%;
-    inline-size: 68%; */
-    padding: 10%;
-}
-
-.homesect{
+.imgall{
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 4%;
+    justify-content: center;
+}
+.imglo{
+    width: 60%;
+    max-width: 700px;
+    padding: 5px 50px 0 0;
 }
 
+.secondsect{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#welcome{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 62px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 1%;
+}
+#poll{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 4%;
+
+    color: #000000;
+}
 
 @media screen and (min-width: 767px) {
-    .homesect{
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 16%;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    #welcome{
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 111px;
-        line-height: 130px;
-        text-align: center;
-        color: #000000;
-        margin-bottom: 5%;
-    }
-    #poll{
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 29px;
-        line-height: 34px;
-        text-align: center;
-        margin-bottom: 15%;
-
-        color: #000000;
-    }
-};
+        #welcome{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            text-align: center;
+            color: #000000;
+        }
+        #poll{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 3%;
+            color: #000000;
+        }
     
+}

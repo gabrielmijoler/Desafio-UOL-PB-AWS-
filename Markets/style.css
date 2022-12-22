@@ -1,0 +1,58 @@
+.imgmark{
+    width: 90%;
+    max-width: 700px;
+    margin-left: 5%;
+}
+
+#financial{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+#textfinan{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+
+
+@media screen and (min-width: 767px) {
+    main{
+        margin-top: 5%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #financial{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 39px;
+        line-height: 46px;
+        text-align: center;
+    }
+    #textfinan{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 33px;
+        text-align: center;
+    }
+    .doisbotao{
+            width: 199px;
+            height: 35.55px;
+            background: #3EB25E;
+            border-radius: 35px;
+            color: #ffffff;
+    }
+    
+}

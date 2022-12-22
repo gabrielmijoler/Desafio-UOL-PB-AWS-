@@ -1,20 +1,13 @@
-body{
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-}
+/* body{
+    display: grid;
+} */
 main{
-    /* padding: 0 2rem;
-    padding-inline: 2rem;
-    padding-block: 0;
-    margin: 0 auto;
-    margin-inline: auto;
-    margin-block: 0; */
-}
-section{
-    
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100%,1fr));;
+    grid-template-rows: repeat(auto-fit,minmax(50%,1fr));
+    margin-top: 10%;
+    align-items: center;
+    justify-items: center;
 }
 
 .tdsbotao{
@@ -22,114 +15,37 @@ section{
     height: 35.55px;
     background: #3EB25E;
     border-radius: 35px;
+    color: #ffffff;
 }
 
-/* .imgall{
-    position: absolute;
-    width: 431px;
-    height: 661px;
-    left: 212px;
-    top: 51px;
+.btsection{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}   
+
+.doisbotao{
+    width: 150px;
+    background: #3EB25E;
+    border-radius: 35px;
+    color: #ffffff;
+    margin-inline: 4%;
+    height: 35px;
 }
 
-
-#welcome{
-    position: absolute;
-    width: 456px;
-    height: 106px;
-    left: 830px;
-    top: 131px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 111px;
-    line-height: 130px;
-    text-align: center;
-    
-    color: #000000;
+.skipbts{
+    width: 459px;
+    height: 36px;
+    background: #3EB25E;
+    border-radius: 35px;
+    color: #ffffff;
 }
-
-#poll{
-    position: absolute;
-    width: 473px;
-    height: 47px;
-    left: 830px;
-    top: 365px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 29px;
-    line-height: 34px;
-    text-align: center;
-
-    color: #000000;
-}
-
-@media screen and (max-width: 768px) {
-    .imgall{
-        position: absolute;
-        width: 271px;
-        height: 416px;
-        left: 6%;
-        top: 4%;
-    }
-
-    .tdsbotao{
-        position: absolute;
-        width: 199px;
-        height: 36px;
-        left: 25%;
-        top: 91%;
-        background: #3EB25E;
-        border-radius: 35px;
-        color: #fff;
-    }
-    
-    #welcome{
-        position: absolute;
-        width: 264px;
-        height: 57px;
-        left: 16%;
-        top: 64%;
-        
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 62px;
-        text-align: center;
-        
-        color: #000000;
-    }s
-    
-    #poll{
-        position: absolute;
-        width: 382px;
-        height: 47px;
-        left: 0%;
-        top: 78%;
-
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 28px;
-        text-align: center;
-
-        color: #000000;
-    }
-
-} */
-@media screen and (min-width: 767px) {
-    body{
-        display: grid;
-        height: 100%;
-        width: 100%;
-    }
+@media screen and (min-width: 1200px) {
     main{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
+        margin-top: 5%;
+        align-items: center;
+        justify-items: center;
     }
-};
-    
-
+}

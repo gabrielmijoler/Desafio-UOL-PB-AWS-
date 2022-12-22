@@ -5,30 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Account</title>
 </head>
 <body>
     <main>
-        <section>
-            <img class="imgall" src="../img/animacao.svg" alt="Rogerinho">
+        <section class="imgall">
+            <img class="imgmark" src="../img/account.svg" alt="account">
         </section>
-        <section>
+        <section clas="secondsect">
             <p class="field">
-                <label for="whycontacting" class="">What is the status of your account?</label>
-                <select name="whycontacting" id="whycontacting">
+                <label for="typeaccout" class="laberTit"><h1>What is the status of your account?</h1></label>
+                <select name="typeaccout" id="typeaccout">
                     <option value="noaccount">I have not created an account yet.</option>
                     <option value="haveaccount">I have account</option>
                     <option value="analysisaccount">Account in analysis</option>
                 </select>
             </p>
 
-            <h2></h2>
+            <h1>In which financial markets do you operate?</h1>
                 <p>
-                    <input type="radio" name="stock market" id="stock market" value="stock market" />
+                    <input type="radio" name="stock market" id="stockmarket" value="stockmarket" />
                     <label for="contacttime1">stock market</label>
                 </p>
                 <p>
-                    <input type="radio" name="foreign exchange" id="foreign exchange" value="foreign exchange" />
+                    <input type="radio" name="foreign exchange" id="foreignexchange" value="foreignexchange" />
                     <label for="contacttime2">foreign exchange</label>
                 </p>
                 <p>
@@ -36,18 +37,18 @@
                     <label for="contacttime3">commodity</label>
                 </p>
                 <p>
-                    <input type="radio" name="bond market" id="bond market" value="bond market" />
+                    <input type="radio" name="bond market" id="bondmarket" value="bond market" />
                     <label for="contacttime3">bond market</label>
                 </p>
                 <p>
                     <input type="radio" name="cryptmarket" id="cryptmarket" value="cryptmarket" />
                     <label for="contacttime3">cryptocurrency market</label>
                 </p>
-            <section>
-                <button class="tdsbotao">Back</button>
-                <button class="tdsbotao">Next</button>
+            <section class="btsection">
+                <button class="doisbotaoaccount">Back</button>
+                <button class="doisbotaoaccount">Next</button>
             </section>
-            <button class="tdsbotao" id="skip">Skip</button>
+            <button class="skipbts" id="skip">Skip</button>
         </section>
     </main>
 </body>
