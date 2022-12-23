@@ -1,0 +1,65 @@
+.imgmark{
+    width: 90%;
+    max-width: 700px;
+    margin-left: 5%;
+}
+.secondsect{
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 400;
+
+    color: #000000;
+}
+
+.laberTitulo{
+    display: flex;
+}
+
+.sectcheckbox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+}
+
+#typeaccout{
+    box-sizing: border-box;
+    padding: 0px 0px 0px 20px;
+    width: 459px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+#selectinvest{
+    box-sizing: border-box;
+    padding: 0px 0px 0px 20px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.stockmarket{
+    width: 25px;
+    top: 340px;
+    background: rgba(62, 178, 94, 0.3);
+}
+.doisbotaoaccount{
+    width: 45%;
+    background: #3EB25E;
+    border-radius: 35px;
+    color: #ffffff;
+    height: 35px;
+}
+.label-standard{
+    width: 100%;
+    height: 28px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}

@@ -5,31 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Login</title>
 </head>
 <body>
     <main>
         <section>
-            <img class="imgall" src="../img/animacao.svg" alt="Rogerinho">
+            <img class="imgmark" src="../img/login.svg" alt="details">
         </section>
-        <section>
+        <section class="secondsect">
             <form action="">
-                <p class="field">
-                    <label class="label-standard">
-                        Full Name
-                        <input type="text" name="name" required/>
+                <p>
+                    <label>
+                        <h4>Full Name</h4>
+                        <input type="text" class="label-standard" name="name" required/>
                     </label>
                 </p>
-                <p class="field">
-                    <label class="label-standard">
-                        Email
-                        <input type="text" name="email" required/>
+                <p>
+                    <label>
+                        <h4>Email</h4>
+                        <input type="text" class="label-standard" name="email" required/>
                     </label>
                 </p>
-                <section>
-                    <button class="tdsbotao">Back</button>
-                    <button class="tdsbotao">Submit</button>
+                <section class="btsection">
+                    <button class="doisbotaoaccount">Back</button>
+                    <button class="doisbotaoaccount">Next</button>
                 </section>
+                <button class="skipbts" id="skip">Skip</button>
             </form>
         </section>
     </main>

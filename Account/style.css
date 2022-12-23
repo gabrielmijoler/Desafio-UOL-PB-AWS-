@@ -4,26 +4,23 @@
     margin-left: 5%;
 }
 .secondsect{
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-flow: column;
-    align-items: center;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
-    line-height: 42px;
     color: #000000;
+    height: 120%;
 }
 
-.laberTitulo{
-    display: flex;
+#h1at{
+    margin-top: 0%;
 }
 
 #typeaccout{
-    box-sizing: border-box;
-    padding: 0px 0px 0px 20px;
-    width: 459px;
+    padding: 0 0 0 6%;
+    width: 100%;
     height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 20px;
@@ -36,7 +33,7 @@
     background: rgba(62, 178, 94, 0.3);
 }
 .doisbotaoaccount{
-    width: 150px;
+    width: 45%;
     background: #3EB25E;
     border-radius: 35px;
     color: #ffffff;
@@ -70,6 +67,15 @@
 }
 
 @media screen and (min-width: 1200px) {
+    .secondsect {
+        width: 70%;
+        display: flex;
+        flex-flow: column;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        color: #000000;
+    }
     #financial{
         font-family: 'Roboto';
         font-style: normal;

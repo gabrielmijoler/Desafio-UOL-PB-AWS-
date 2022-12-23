@@ -5,22 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Invest</title>
 </head>
 <body>
     <main>
-        <section>
-            <img class="imgall" src="../img/animacao.svg" alt="Rogerinho">
+        <section class="imgall">
+            <img class="imgmark" src="../img/invest.svg" alt="invest">
         </section>
+        <section class="secondsect">
             <p class="field">
-                <label for="whycontacting" class="">How do you decide to invest?</label>
-                <select name="whycontacting" id="whycontacting">
-                    <option value="noaccount">I have not created an account yet.</option>
-                    <option value="haveaccount">I have account</option>
-                    <option value="analysisaccount">Account in analysis</option>
+                <label for="selectinvest" class="laberTitulo"><h1>How do you decide to invest?</h1></label>
+                <select name="selectinvest" id="selectinvest">
+                    <option value="noaccount">I have not invested yet.</option>
+                    <option value="haveaccount">I have invested</option>
+                    <option value="analysisaccount">Account in invested</option>
                 </select>
             </p>
-            <h2>What resources have you used or are you using for your training?</h2>
+            <h3>What resources have you used or are you using for your training?</h3>
             <p>
                 <input type="checkbox" name="books articles" id="books articles" value="books articles" />
                 <label for="box1">Books and articles</label>
@@ -37,11 +39,11 @@
                 <input type="checkbox" name="litle investment" id="litle investment" value="litle investment" />
                 <label for="box4">experience with little investment</label>
             </p>
-    <section>
-        <button class="tdsbotao">Back</button>
-        <button class="tdsbotao">Next</button>
-    </section>
-    <button class="tdsbotao" id="skip">Skip</button>
+            <section class="btsection">
+                <button class="doisbotaoaccount">Back</button>
+                <button class="doisbotaoaccount">Next</button>
+            </section>
+            <button class="skipbts" id="skip">Skip</button>
         </section>
     </main>
 </body>

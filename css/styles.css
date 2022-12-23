@@ -22,6 +22,7 @@ main{
     display: flex;
     justify-content: space-between;
     margin-bottom: 2%;
+    margin-top: 2%;
 }   
 
 .doisbotao{
@@ -34,11 +35,12 @@ main{
 }
 
 .skipbts{
-    width: 459px;
+    width: 100%;
     height: 36px;
     background: #3EB25E;
     border-radius: 35px;
     color: #ffffff;
+    margin-bottom: 5%;
 }
 @media screen and (min-width: 1200px) {
     main{
