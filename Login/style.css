@@ -63,3 +63,18 @@
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 }
+
+.loginbotao{
+    width: 100%;
+    background: #3EB25E;
+    border-radius: 35px;
+    color: #ffffff;
+    height: 35px;
+}
+
+/* @media screen and (min-width: 1200px) {
+    
+    main{
+        margin-top: 13%;
+    }
+} */

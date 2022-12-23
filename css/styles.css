@@ -46,7 +46,7 @@ main{
     main{
         display: grid;
         grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
-        margin-top: 5%;
+        margin-top: 13%;
         align-items: center;
         justify-items: center;
     }

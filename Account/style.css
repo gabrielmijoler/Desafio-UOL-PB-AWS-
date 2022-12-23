@@ -67,6 +67,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+    main{
+        margin-top: 13%;
+    }
     .secondsect {
         width: 70%;
         display: flex;
