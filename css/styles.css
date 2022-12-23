@@ -42,6 +42,22 @@ main{
     color: #ffffff;
     margin-bottom: 5%;
 }
+
+.hoverin:hover{
+    background-color: #FFFF7D;
+    color: #000000;
+    opacity: 1s;
+}
+
+.legent{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
+ 
 @media screen and (min-width: 1200px) {
     main{
         display: grid;

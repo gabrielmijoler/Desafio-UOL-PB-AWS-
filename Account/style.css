@@ -11,7 +11,7 @@
     font-style: normal;
     font-weight: 400;
     color: #000000;
-    height: 120%;
+    height: 118%;
 }
 
 #h1at{
@@ -19,11 +19,12 @@
 }
 
 #typeaccout{
-    padding: 0 0 0 6%;
+    padding: 0px 0px 0px 20px;;
     width: 100%;
     height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 20px;
+    margin-top: 2%;
 }
 
 .stockmarket{
@@ -60,6 +61,11 @@
 }
 
 
+@media screen and (min-width: 485px) {
+    .secondsect{
+        height: 100%;
+    }
+}
 @media screen and (min-width: 767px) {
     main{
         margin-top: 5%;
@@ -71,29 +77,16 @@
         margin-top: 13%;
     }
     .secondsect {
-        width: 70%;
-        display: flex;
-        flex-flow: column;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        color: #000000;
+        height: 120%;
     }
     #financial{
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
         font-size: 39px;
         line-height: 46px;
-        text-align: center;
     }
     #textfinan{
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
         font-size: 28px;
         line-height: 33px;
-        text-align: center;
+
     }
     .doisbotao{
             width: 199px;

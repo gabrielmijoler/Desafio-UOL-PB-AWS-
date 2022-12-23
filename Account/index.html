@@ -15,41 +15,43 @@
         </section>
         <section class="secondsect">
             <p class="field">
-                <label for="typeaccout" class="laberTitulo"><h1>What is the status of your account?</h1></label>
+                <label for="typeaccout" class="laberTitulo"><legend class="legent">What is the status of your account?</legend></label>
                 <select name="typeaccout" id="typeaccout">
                     <option value="noaccount">I have not created an account yet.</option>
                     <option value="haveaccount">I have account</option>
                     <option value="analysisaccount">Account in analysis</option>
                 </select>
             </p>
-
-            <h3 id="h1at">In which financial markets do you operate?</h3>
-                <p>
-                    <input type="radio" name="stock market" id="stockmarket" value="stockmarket" />
-                    <label for="contacttime1">stock market</label>
-                </p>
-                <p>
-                    <input type="radio" name="foreign exchange" id="foreignexchange" value="foreignexchange" />
-                    <label for="contacttime2">foreign exchange</label>
-                </p>
-                <p>
-                    <input type="radio" name="commodity" id="commodity" value="commodity" />
-                    <label for="contacttime3">commodity</label>
-                </p>
-                <p>
-                    <input type="radio" name="bond market" id="bondmarket" value="bond market" />
-                    <label for="contacttime3">bond market</label>
-                </p>
-                <p>
-                    <input type="radio" name="cryptmarket" id="cryptmarket" value="cryptmarket" />
-                    <label for="contacttime3">cryptocurrency market</label>
-                </p>
-            <section class="btsection">
-                <button onclick="location.href='/Markets/index.html'" class="doisbotaoaccount">Back</button>
-                <button onclick="location.href='/Invest/index.html'"class="doisbotaoaccount">Next</button>
+            <section class="field-check">
+                <legend class="legent">In which financial markets do you operate?</legend>
+                    <p>
+                        <input type="radio" name="operatefinancial" id="stockmarket" value="stockmarket" />
+                        <label for="stockmarket">stock market</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="operatefinancial" id="foreignexchange" value="foreignexchange" />
+                        <label for="foreignexchange">foreign exchange</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="operatefinancial" id="commodity" value="commodity" />
+                        <label for="commodity">commodity</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="operatefinancial" id="bondmarket" value="bond market" />
+                        <label for="bondmarket">bond market</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="operatefinancial" id="cryptmarket" value="cryptmarket" />
+                        <label for="cryptmarket">cryptocurrency market</label>
+                    </p>
             </section>
-            <button class="skipbts" id="skip">Skip</button>
+            <section class="btsection">
+                <button onclick="location.href='/Markets/index.html'" class="doisbotaoaccount hoverin">Back</button>
+                <button onclick="envia()" id="nextbt" class="doisbotaoaccount hoverin">Next</button>
+            </section>
+            <button class="skipbts hoverin" id="skip">Skip</button>
         </section>
     </main>
 </body>
 </html>
+<script src="./account.js"></script>
