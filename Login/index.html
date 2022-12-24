@@ -14,18 +14,27 @@
             <img class="imgmark" src="../img/login.svg" alt="details">
         </section>
         <section class="secondsect">
-            <form action="">
-                <p>
+            <form action="/Home/index.html" id="form" class="form">
+                <p class="form-control">
                     <label>
                         <h4>Full Name</h4>
-                        <input type="text" class="label-standard" name="name" required/>
+                        <input type="text" class="label-standard" id="name" required/>
                     </label>
+                    <small></small>
                 </p>
-                <p>
+                <p class="form-control">
                     <label>
                         <h4>Email</h4>
-                        <input type="text" class="label-standard" name="email" required/>
+                        <input type="email" class="label-standard" id="email" required/>
                     </label>
+                    <small></small>
+                </p>
+                <p class="form-control">
+                    <label>
+                        <h4>Age</h4>
+                        <input type="number" class="label-standard" id="age" required/>
+                    </label>
+                    <small></small>
                 </p>
                 <section class="btsection">
                     <button  onclick="location.href='/Details/index.html'" class="loginbotao hoverin">Back</button>
