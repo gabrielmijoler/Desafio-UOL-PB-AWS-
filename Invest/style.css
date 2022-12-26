@@ -61,19 +61,8 @@ input[type="checkbox"]:checked{
         height: 100%;
     }
 }
-
-@media screen and (min-width: 1024px) {
-    main{
-        display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
-        margin-top: 13%;
-        align-items: center;
-        justify-items: center;
-    }
-}
-
 @media screen and (min-width: 1200px) {
     .secondsect{
-        height: auto;
+        height: 118%;
     }
 }
