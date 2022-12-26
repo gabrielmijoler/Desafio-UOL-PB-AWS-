@@ -47,8 +47,36 @@
     height: 35px;
 }
 
+
+@media screen and (min-width: 1024px) {
+    main{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
+        margin-top: 13%;
+        align-items: center;
+        justify-items: center;
+    }
+    .secondsect {
+        width: 71%;
+        display: flex;
+        flex-flow: column;
+        font-family: 'roboto';
+        font-style: normal;
+        font-weight: 400;
+        color: #000000;
+        height: auto;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .secondsect{
+        width: 70%;
+        display: flex;
+        flex-flow: column;
+        font-family: 'roboto';
+        font-style: normal;
+        font-weight: 400;
+        color: #000000;
         height: auto;
     }
 }

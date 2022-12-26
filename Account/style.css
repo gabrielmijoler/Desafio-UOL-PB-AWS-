@@ -80,12 +80,22 @@ input[type="radio"]:checked{
     }
 }
 
+@media screen and (min-width: 1024px) {
+    main{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
+        margin-top: 13%;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     main{
         margin-top: 13%;
     }
     .secondsect {
-        height: 120%;
+        height: auto;
     }
     #financial{
         font-size: 39px;
