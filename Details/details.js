@@ -1,16 +1,13 @@
-var coments = document.getElementById("comments");
-console.log(coments)
+myTextArea = document.querySelector('textarea');
 
-function textArea(){
-    const textareas = coments.value;
-    
-    console.log(coments)
 
-    if(coments.innerHTML != ""){ 
+myTextArea.addEventListener('input', function textArea(){
+    let digitando = myTextArea.value.lenght;
+
+    if(digitando > 1){
+        console.error("erro")
+    } else{
         location.href='/Login/index.html'
-    } else { 
-        return console.error("Escolher uma opção");
     }
-    console.log(textareas)
-    
 }
+)
