@@ -57,7 +57,21 @@ main{
     line-height: 30px;
     color: #000000;
 }
- 
+.setinha{
+    background-image: url(/img/setinha.svg);
+    background-repeat: no-repeat;
+    background-position: 2% 60%;
+}
+
+#selectinvest{
+    box-sizing: border-box;
+    padding: 2px 0px 0px 30px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
 @media screen and (min-width: 1200px) {
     main{
         display: grid;

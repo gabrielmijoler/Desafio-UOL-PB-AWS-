@@ -33,20 +33,7 @@
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 }
-#selectinvest{
-    box-sizing: border-box;
-    padding: 0px 0px 0px 20px;
-    width: 100%;
-    height: 30px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    margin-top: 3%;
-}
-.stockmarket{
-    width: 25px;
-    top: 340px;
-    background: rgba(62, 178, 94, 0.3);
-}
+
 .doisbotaoaccount{
     width: 45%;
     background: #3EB25E;
@@ -54,6 +41,21 @@
     color: #ffffff;
     height: 35px;
 }
+.alinhar{
+    display: flex;
+}
+input[type="checkbox"]{
+    width: 15px;
+    height: 13px;
+    background: rgba(62, 178, 94, 0.3);
+    appearance: none;
+    border: 1px solid #0000007a;
+ }
+
+input[type="checkbox"]:checked{
+    background: #3EB25E;
+}
+
 @media screen and (min-width: 485px) {
     .secondsect{
         height: 100%;

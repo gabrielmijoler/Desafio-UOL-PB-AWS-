@@ -27,12 +27,20 @@
     margin-top: 2%;
 }
 
-.stockmarket{
-    width: 25px;
-    top: 340px;
-
+input[type="radio"]{
+    width: 15px;
+    height: 13px;
     background: rgba(62, 178, 94, 0.3);
+    appearance: none;
+    border: #000000;
+    border-radius: 50%;
+    border: 1px solid #0000007a;
+ }
+
+input[type="radio"]:checked{
+    background: #3EB25E;
 }
+
 .doisbotaoaccount{
     width: 45%;
     background: #3EB25E;

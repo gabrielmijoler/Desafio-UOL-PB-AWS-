@@ -14,39 +14,43 @@
             <img class="imgmark" src="../img/invest.svg" alt="invest">
         </section>
         <section class="secondsect">
-            <p class="field">
-                <label for="selectinvest"><legend class="legent">How do you decide to invest?</legend></label>
-                <select name="selectinvest" id="selectinvest">
-                    <option value="noaccount">I have not invested yet.</option>
-                    <option value="haveaccount">I have invested</option>
-                    <option value="analysisaccount">Account in invested</option>
-                </select>
-            </p>
-            <section>
-                <legend class="legent">What resources have you used or are you using for your training?</legend>
-                <p>
-                    <input type="checkbox" name="investcoment" id="books articles" value="books articles" />
-                    <label for="box1">Books and articles</label>
+            <form>
+                <p class="field">
+                    <label for="selectinvest"><legend class="legent">How do you decide to invest?</legend></label>
+                    <select class="setinha" name="selectinvest" id="selectinvest" required >
+                        <option value=""></option>
+                        <option value="noaccount">I have not invested yet.</option>
+                        <option value="haveaccount">I have invested</option>
+                        <option value="analysisaccount">Account in invested</option>
+                    </select>
                 </p>
-                <p>
-                    <input type="checkbox" name="investcoment" id="youTube videos" value="youTube videos" />
-                    <label for="box2">YouTube tutorial videos</label>
-                </p>
-                <p>
-                    <input type="checkbox" name="investcoment" id="online courses" value="online courses" />
-                    <label for="box3">online or face to face courses </label>
-                </p>
-                <p>
-                    <input type="checkbox" name="linvestcoment" id="litle investment" value="litle investment" />
-                    <label for="box4">experience with little investment</label>
-                </p>
-            </section>
-            <section class="btsection">
-                <button onclick="location.href='/Account/index.html'" class="doisbotaoaccount hoverin">Back</button>
-                <button onclick="location.href='/Details/index.html'" class="doisbotaoaccount hoverin">Next</button>
-            </section>
-            <button class="skipbts hoverin" id="skip">Skip</button>
+                <section>
+                    <legend class="legent">What resources have you used or are you using for your training?</legend>
+                    <p class="alinhar">
+                        <input type="checkbox" name="investcoment" id="booksarticles" value="books articles"/>
+                        <label for="booksarticles">Books and articles</label>
+                    </p>
+                    <p class="alinhar">
+                        <input type="checkbox" name="investcoment" id="youtubevideos" value="youTube videos" />
+                        <label for="youTubevideos">YouTube tutorial videos</label>
+                    </p>
+                    <p class="alinhar">
+                        <input type="checkbox" name="investcoment" id="onlinecourses" value="online courses" />
+                        <label for="onlinecourses">online or face to face courses </label>
+                    </p>
+                    <p class="alinhar">
+                        <input type="checkbox" name="investcoment" id="litleinvestment" value="litle investment" />
+                        <label for="litleinvestment">experience with little investment</label>
+                    </p>
+                </section>
+                <section class="btsection">
+                    <button onclick="location.href='/Account/index.html'" class="doisbotaoaccount hoverin">Back</button>
+                    <button class="doisbotaoaccount hoverin" type="button" onclick="validarcheck()">Next</button>
+                </section>
+                <button onclick="location.href='/Details/index.html'" class="skipbts hoverin" id="skip">Skip</button>
+            </form>
         </section>
     </main>
 </body>
 </html>
+<script src="/Invest/invest.js"></script>
