@@ -18,13 +18,13 @@
                 <label for="comments" class="laberTitulo">
                     <h3>If you or someone close to you has already made a loss on the investment,write down the details</h3>
                 </label>
-                <textarea name="comments" id="comments" rows="5" maxlength="130"></textarea>
+                <textarea name="comments" id="comments" rows="5" maxlength="130" value required ></textarea>
             </p>
             <section class="btsection">
                 <button onclick="location.href='/Invest/index.html'" id="backDetails" class="doisbotaoaccount hoverin">Back</button>
-                <button onclick="location.href='/Login/index.html'" id="nextDetails" class="doisbotaoaccount hoverin">Next</button>
+                <button onclick="textArea()" id="nextDetails" class="doisbotaoaccount hoverin">Next</button>
             </section>
-            <button class="skipbts" id="skip">Skip</button>
+            <button onclick="location.href='/Login/index.html'"class="skipbts hoverin" id="skip">Skip</button>
         </section>
     </main>
 </body>
