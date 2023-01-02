@@ -5,31 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Details</title>
 </head>
 <body>
     <main>
         <section>
-            <img class="imgall" src="../img/animacao.svg" alt="Rogerinho">
+            <img class="imgmark" src="../img/details.svg" alt="details">
         </section>
-        <section>
+        <section class="secondsect">
             <p class="field">
-                <label for="comments" class="label-standard">
-                    If you or someone close to you has already made a loss on the investment,write down the details
+                <label for="comments" class="laberTitulo">
+                    <p class="legent">If you or someone close to you has already made a loss on the investment,write down the details</p>
                 </label>
-<<<<<<< Updated upstream
-                <textarea name="comments" id="comments" rows="5"></textarea>
-=======
                 <textarea name="comments" id="comments" rows="5" maxlength="130" value required></textarea>
                 <h3></h3>
->>>>>>> Stashed changes
+                <textarea name="comments" id="comments" rows="5" maxlength="130" value required ></textarea>
             </p>
-            <section>
-                <button class="tdsbotao">Back</button>
-                <button class="tdsbotao">Next</button>
+            <section class="btsection">
+                <button onclick="location.href='/Invest/index.html'" id="backDetails" class="doisbotaoaccount hoverin">Back</button>
+                <button onclick="textArea()" id="nextDetails" class="doisbotaoaccount hoverin">Next</button>
             </section>
-            <button class="tdsbotao" id="skip">Skip</button>
+            <button onclick="location.href='/Login/index.html'"class="skipbts hoverin" id="skip">Skip</button>
         </section>
     </main>
 </body>
 </html>
+<script src="/Details/details.js" defer></script>

@@ -5,51 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Account</title>
 </head>
 <body>
     <main>
-        <section>
-            <img class="imgall" src="../img/animacao.svg" alt="Rogerinho">
+        <section class="imgall">
+            <img class="imgmark" src="../img/account.svg" alt="account">
         </section>
-        <section>
-            <p class="field">
-                <label for="whycontacting" class="">What is the status of your account?</label>
-                <select name="whycontacting" id="whycontacting">
-                    <option value="noaccount">I have not created an account yet.</option>
-                    <option value="haveaccount">I have account</option>
-                    <option value="analysisaccount">Account in analysis</option>
-                </select>
-            </p>
-
-            <h2></h2>
-                <p>
-                    <input type="radio" name="stock market" id="stock market" value="stock market" />
-                    <label for="contacttime1">stock market</label>
+        <section class="secondsect">
+            <form action="/Invest/index.html">
+                <p class="field">
+                    <label for="typeaccout" class="laberTitulo"><legend class="legent">What is the status of your account?</legend></label>
+                    <select class="setinha" name="typeaccout" id="typeaccout" required>
+                        <option value=""></option>
+                        <option value="noaccount">I have not created an account yet.</option>
+                        <option value="haveaccount">I have account</option>
+                        <option value="analysisaccount">Account in analysis</option>
+                    </select>
                 </p>
-<<<<<<< Updated upstream
-                <p>
-                    <input type="radio" name="foreign exchange" id="foreign exchange" value="foreign exchange" />
-                    <label for="contacttime2">foreign exchange</label>
-                </p>
-                <p>
-                    <input type="radio" name="commodity" id="commodity" value="commodity" />
-                    <label for="contacttime3">commodity</label>
-                </p>
-                <p>
-                    <input type="radio" name="bond market" id="bond market" value="bond market" />
-                    <label for="contacttime3">bond market</label>
-                </p>
-                <p>
-                    <input type="radio" name="cryptmarket" id="cryptmarket" value="cryptmarket" />
-                    <label for="contacttime3">cryptocurrency market</label>
-                </p>
-            <section>
-                <button class="tdsbotao">Back</button>
-                <button class="tdsbotao">Next</button>
-            </section>
-            <button class="tdsbotao" id="skip">Skip</button>
-=======
                 <section class="field-check">
                     <legend class="legent">In which financial markets do you operate?</legend>
                         <p>
@@ -70,6 +44,26 @@
                         </p>
                         <p>
                             <input type="radio" name="operatefinancial" id="cryptmarket"  value="cryptmarket" />
+                <section class="field-check">
+                    <legend class="legent">In which financial markets do you operate?</legend>
+                        <p class="alinhar">
+                            <input type="radio" name="operatefinancial"  value="stockmarket" required>
+                            <label for="stockmarket">stock market</label>
+                        </p>
+                        <p class="alinhar">
+                            <input type="radio" name="operatefinancial"  value="foreignexchange" />
+                            <label for="foreignexchange">foreign exchange</label>
+                        </p>
+                        <p class="alinhar"> 
+                            <input type="radio" name="operatefinancial" value="commodity" />
+                            <label for="commodity">commodity</label>
+                        </p>
+                        <p class="alinhar">
+                            <input type="radio" name="operatefinancial"  value="bond market" />
+                            <label for="bondmarket">bond market</label>
+                        </p>
+                        <p class="alinhar">
+                            <input type="radio" name="operatefinancial" value="cryptmarket" />
                             <label for="cryptmarket">cryptocurrency market</label>
                         </p>
                 </section>
@@ -79,8 +73,8 @@
                 </section>
                 <button class="skipbts hoverin" onclick="location.href='/Invest/index.html'" id="skip">Skip</button>
             </form>
->>>>>>> Stashed changes
         </section>
     </main>
 </body>
 </html>
+<script src="./account.js" defer></script>

@@ -1,0 +1,49 @@
+.imgmark{
+    width: 90%;
+    max-width: 700px;
+    margin-left: 5%;
+}
+
+#textfinan{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+.secondsect{
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    height: 115%;
+}
+
+
+@media screen and (min-width: 767px) {
+    main{
+        margin-top: 5%;
+    }
+    .secondsect{
+        width: 55%;
+        display: flex;
+        flex-flow: column;
+    }
+    #textfinan{
+        font-size: 28px;
+        line-height: 33px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    
+    main{
+        margin-top: 13%;
+    }
+    .secondsect{
+        width: 70%;
+        display: flex;
+        flex-flow: column;
+    }
+}

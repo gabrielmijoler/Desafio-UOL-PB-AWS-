@@ -5,56 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Login</title>
 </head>
 <body>
     <main>
         <section>
-            <img class="imgall" src="../img/animacao.svg" alt="Rogerinho">
+            <img class="imgmark" src="../img/login.svg" alt="details">
         </section>
-<<<<<<< Updated upstream
-        <section>
-            <form action="">
-                <p class="field">
-                    <label class="label-standard">
-                        Full Name
-                        <input type="text" name="name" required/>
-=======
         <section class="secondsect">
             <form action="/Home/index.html" id="form" class="form">
                 <p class="form-control">
                     <label>
-                        <h4>Full Name</h4>
-                        <input type="text" class="label-standard" id="name" placeholder="Nasser Toghiri" required/>
+                        <p class="legentlogin">Full Name:</p>
+                        <input type="text" class="label-standard" id="name" required/>
                     </label>
                     <small></small>
                 </p>
                 <p class="form-control">
                     <label>
-                        <h4>Email</h4>
-                        <input type="text" class="label-standard" id="email" placeholder="N.Toghiri@Gmail.com" required/>
->>>>>>> Stashed changes
+                        <p class="legentlogin">Email:</p>
+                        <input type="text" class="label-standard" id="email" required/>
                     </label>
+                    <small></small>
                 </p>
-<<<<<<< Updated upstream
-                <p class="field">
-                    <label class="label-standard">
-                        Email
-                        <input type="text" name="email" required/>
-=======
                 <p class="form-control">
                     <label>
-                        <h4>Age</h4>
-                        <input type="number" class="label-standar" id="age" placeholder="-- --" required/>
->>>>>>> Stashed changes
                     </label>
                 </p>
-                <section>
-                    <button class="tdsbotao">Back</button>
-                    <button class="tdsbotao">Submit</button>
+                    <p class="legentlogin">Age:</p>
+                    <input type="number" class="label-standard" id="age" required/>
+                    </label>
+                    <small></small>
+                </p>
+                <section class="btsection">
+                    <button  onclick="location.href='/Details/index.html'" class="loginbotao hoverin">Back</button>
                 </section>
+                <button class="skipbts hoverin" id="submit">Submit</button>
             </form>
         </section>
     </main>
 </body>
 </html>
+
+<script src="/Login/login.js" defer></script>

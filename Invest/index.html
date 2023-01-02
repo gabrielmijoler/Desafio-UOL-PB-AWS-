@@ -5,44 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Invest</title>
 </head>
 <body>
     <main>
-        <section>
-            <img class="imgall" src="../img/animacao.svg" alt="Rogerinho">
+        <section class="imgall">
+            <img class="imgmark" src="../img/invest.svg" alt="invest">
         </section>
-            <p class="field">
-                <label for="whycontacting" class="">How do you decide to invest?</label>
-                <select name="whycontacting" id="whycontacting">
-                    <option value="noaccount">I have not created an account yet.</option>
-                    <option value="haveaccount">I have account</option>
-                    <option value="analysisaccount">Account in analysis</option>
-                </select>
-            </p>
-            <h2>What resources have you used or are you using for your training?</h2>
-            <p>
-                <input type="checkbox" name="books articles" id="books articles" value="books articles" />
-                <label for="box1">Books and articles</label>
-            </p>
-            <p>
-                <input type="checkbox" name="youTube videos" id="youTube videos" value="youTube videos" />
-                <label for="box2">YouTube tutorial videos</label>
-            </p>
-            <p>
-                <input type="checkbox" name="online courses" id="online courses" value="online courses" />
-                <label for="box3">online or face to face courses </label>
-            </p>
-            <p>
-                <input type="checkbox" name="litle investment" id="litle investment" value="litle investment" />
-                <label for="box4">experience with little investment</label>
-            </p>
-    <section>
-        <button class="tdsbotao">Back</button>
-        <button class="tdsbotao">Next</button>
-    </section>
-    <button class="tdsbotao" id="skip">Skip</button>
+        <section class="secondsect">
+            <form>
+                <p class="field">
+                    <label for="selectinvest"><legend class="legent">How do you decide to invest?</legend></label>
+                    <select class="setinha" name="selectinvest" id="typeaccout" required >
+                        <option value=""></option>
+                        <option value="noaccount">I have not invested yet.</option>
+                        <option value="haveaccount">I have invested</option>
+                        <option value="analysisaccount">Account in invested</option>
+                    </select>
+                </p>
+                <section>
+                    <legend class="legent">What resources have you used or are you using for your training?</legend>
+                    <p class="alinhar">
+                        <input type="checkbox" name="investcoment" id="booksarticles" value="books articles"/>
+                        <label for="booksarticles">Books and articles</label>
+                    </p>
+                    <p class="alinhar">
+                        <input type="checkbox" name="investcoment" id="youtubevideos" value="youTube videos" />
+                        <label for="youTubevideos">YouTube tutorial videos</label>
+                    </p>
+                    <p class="alinhar">
+                        <input type="checkbox" name="investcoment" id="onlinecourses" value="online courses" />
+                        <label for="onlinecourses">online or face to face courses </label>
+                    </p>
+                    <p class="alinhar">
+                        <input type="checkbox" name="investcoment" id="litleinvestment" value="litle investment" />
+                        <label for="litleinvestment">experience with little investment</label>
+                    </p>
+                </section>
+                <section class="btsection">
+                    <button onclick="location.href='/Account/index.html'" class="doisbotaoaccount hoverin">Back</button>
+                    <button class="doisbotaoaccount hoverin" type="button" onclick="validarcheck()">Next</button>
+                </section>
+                <button onclick="location.href='/Details/index.html'" class="skipbts hoverin" id="skip">Skip</button>
+            </form>
         </section>
     </main>
 </body>
 </html>
+<script src="/Invest/invest.js" defer></script>
