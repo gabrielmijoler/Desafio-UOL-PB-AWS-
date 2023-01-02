@@ -7,44 +7,12 @@
     width: 70%;
     display: flex;
     flex-flow: column;
-    font-family: 'roboto';
-    font-style: normal;
-    font-weight: 400;
-
-    color: #000000;
 }
 
 .laberTitulo{
     display: flex;
 }
 
-.sectcheckbox{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-flow: column;
-    font-family: 'roboto';
-    font-style: normal;
-    font-weight: 400;
-    color: #000000;
-}
-
-#typeaccout{
-    box-sizing: border-box;
-    padding: 0px 0px 0px 20px;
-    width: 459px;
-    height: 30px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-}
-
-.doisbotaoaccount{
-    width: 45%;
-    background: #3EB25E;
-    border-radius: 35px;
-    color: #ffffff;
-    height: 35px;
-}
 .label-standard{
     width: 100%;
     height: 28px;
@@ -58,11 +26,25 @@
     border-radius: 35px;
     color: #ffffff;
     height: 35px;
+    border: none;
 }
 
-/* @media screen and (min-width: 1200px) {
+.legentlogin{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0 5%;
+}
+
+
+@media screen and (min-width: 768px) {
     
-    main{
-        margin-top: 13%;
+    .legentlogin{
+        font-size: 26px;
+        line-height: 30px;
+        margin: 2% 5%;
     }
-} */
+}

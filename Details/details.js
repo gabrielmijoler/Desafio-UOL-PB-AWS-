@@ -1,13 +1,13 @@
+
 myTextArea = document.querySelector('textarea');
 
 
-myTextArea.addEventListener('input', function textArea(){
-    let digitando = myTextArea.value.lenght;
-
-    if(digitando > 1){
-        console.error("erro")
-    } else{
+function textArea(){
+    if (document.getElementById("comments").value == ""){
+    alert("Preencher o campo");
+    document.getElementById("comments").focus();
+    }
+    else {
         location.href='/Login/index.html'
     }
 }
-)
